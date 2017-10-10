@@ -1,5 +1,6 @@
 package shiyan2;
 import com.fengxiang.java;
+import verygood.java2;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;

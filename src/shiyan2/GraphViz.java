@@ -1,4 +1,5 @@
 package shiyan2;
+import verygood.java3;
 
 
 //GraphViz.java - a simple API to call dot from Java programs

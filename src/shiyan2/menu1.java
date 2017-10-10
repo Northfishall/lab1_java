@@ -1,5 +1,5 @@
 package shiyan2;
-
+import verygood.java1;
 import java.awt.BorderLayout;
 import java.awt.Font;
 import java.awt.Label;
