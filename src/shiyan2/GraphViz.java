@@ -1,5 +1,10 @@
 package shiyan2;
+<<<<<<< HEAD
 //change in B2
+=======
+import verygood.java3;
+
+>>>>>>> 1150250111
 
 //GraphViz.java - a simple API to call dot from Java programs
 /*$Id$*/
@@ -107,9 +112,13 @@ public String getDotSource() {
 public void add(String line) {
  graph.append(line);
 }
+<<<<<<< HEAD
 //some change in GraphViz no1
 //some change in Graphviz no 2 
 //just a test
+=======
+
+>>>>>>> 1150250111
 /**
 * Adds a string to the graph's source (with newline).
 */

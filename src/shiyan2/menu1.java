@@ -1,5 +1,9 @@
 package shiyan2;
+<<<<<<< HEAD
 
+=======
+import verygood.java1;
+>>>>>>> 1150250111
 import java.awt.BorderLayout;
 import java.awt.Font;
 import java.awt.Label;
@@ -20,9 +24,12 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.RootPaneContainer;
 
+<<<<<<< HEAD
 
 //change in menu1
 //change in menu1 more
+=======
+>>>>>>> 1150250111
 public class menu1 implements ActionListener {
 
 	JButton jb1=new JButton("上传文件");

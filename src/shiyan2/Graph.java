@@ -1,11 +1,21 @@
 package shiyan2;
+<<<<<<< HEAD
 
+=======
+import xiang1;
+import com.fengxiang.java;
+import verygood.java2;
+>>>>>>> 1150250111
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+<<<<<<< HEAD
 //change in B2
+=======
+
+>>>>>>> 1150250111
 public class Graph {
 	int G[][];
 	int num;

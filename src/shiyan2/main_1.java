@@ -1,6 +1,11 @@
 package shiyan2;
+<<<<<<< HEAD
 //change in B2
 
+=======
+import xiang3;
+import baofengxiang.java;
+>>>>>>> 1150250111
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
