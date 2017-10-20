@@ -1,0 +1,70 @@
+Found a 13 line (67 tokens) duplication in the following files: 
+Starting at line 208 of C:\code\Lab4\src\shiyan2\main_1.java
+Starting at line 225 of C:\code\Lab4\src\shiyan2\main_1.java
+
+					while(!mystack.isEmpty())
+					{
+						aa[h++]=(int) mystack.pop();
+					}
+					xx=h-1;
+					while(xx>=0)
+					{
+						mystack.push(aa[xx]);
+						p[d].push(aa[xx]);
+						xx--;
+					}
+					d=d+1;
+				}
+=====================================================================
+Found a 7 line (58 tokens) duplication in the following files: 
+Starting at line 238 of C:\code\Lab4\src\shiyan2\main_1.java
+Starting at line 268 of C:\code\Lab4\src\shiyan2\main_1.java
+
+				v[ele]=0;
+				updataA(G,A,mystack,n);
+				if(!mystack.isEmpty())
+					mystack.pop();
+				if(!mystack.isEmpty())
+					sum=sum-G[(int) mystack.peek()][ele];
+			}
+=====================================================================
+Found a 5 line (41 tokens) duplication in the following files: 
+Starting at line 113 of C:\code\Lab4\src\shiyan2\main_1.java
+Starting at line 284 of C:\code\Lab4\src\shiyan2\main_1.java
+
+	    for(int i=0;i<T.num;i++)
+	    {
+	    	for(int j=0;j<T.num;j++)
+	    	{
+	    		if(T.G[i][j]!=0)
+=====================================================================
+Found a 6 line (33 tokens) duplication in the following files: 
+Starting at line 180 of C:\code\Lab4\src\shiyan2\menu1.java
+Starting at line 209 of C:\code\Lab4\src\shiyan2\menu1.java
+Starting at line 240 of C:\code\Lab4\src\shiyan2\menu1.java
+Starting at line 308 of C:\code\Lab4\src\shiyan2\menu1.java
+Starting at line 363 of C:\code\Lab4\src\shiyan2\menu1.java
+
+			bridge_word.setText(null);
+			mypanel.setVisible(false);
+			pn1.setVisible(true);
+			myframe.add(pn1);
+		}
+		else if(e.getSource()==sure)
+=====================================================================
+Found a 3 line (31 tokens) duplication in the following files: 
+Starting at line 221 of C:\code\Lab4\src\shiyan2\menu1.java
+Starting at line 286 of C:\code\Lab4\src\shiyan2\menu1.java
+Starting at line 339 of C:\code\Lab4\src\shiyan2\menu1.java
+
+			Label l3=new Label("Ëæ»úÓÎ×ß");
+			l3.setFont(new Font("Dialog",1,25));
+			l3.setBounds(width/2-100,50,300,60);
+=====================================================================
+Found a 3 line (25 tokens) duplication in the following files: 
+Starting at line 313 of C:\code\Lab4\src\shiyan2\main_1.java
+Starting at line 322 of C:\code\Lab4\src\shiyan2\main_1.java
+
+			for(int j=0;j<T.num;j++)
+			{
+				if(!s[j]&&dist[j]<min)

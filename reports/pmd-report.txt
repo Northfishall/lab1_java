@@ -1,0 +1,740 @@
+src/shiyan2/Graph.java:9:	The class 'Graph' has a Cyclomatic Complexity of 9 (Highest = 16).
+src/shiyan2/Graph.java:9:	The class 'Graph' has a Modified Cyclomatic Complexity of 7 (Highest = 12).
+src/shiyan2/Graph.java:9:	The class 'Graph' has a Standard Cyclomatic Complexity of 7 (Highest = 12).
+src/shiyan2/Graph.java:9:	headerCommentRequirement Required
+src/shiyan2/Graph.java:10:	Avoid variables with short names like G
+src/shiyan2/Graph.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/Graph.java:10:	The field name indicates a constant but its modifiers do not
+src/shiyan2/Graph.java:10:	To avoid mistakes add a comment at the beginning of the G field if you want a default access modifier
+src/shiyan2/Graph.java:10:	Use explicit scoping instead of the default package private level
+src/shiyan2/Graph.java:10:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/shiyan2/Graph.java:10:	fieldCommentRequirement Required
+src/shiyan2/Graph.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/Graph.java:11:	To avoid mistakes add a comment at the beginning of the num field if you want a default access modifier
+src/shiyan2/Graph.java:11:	Use explicit scoping instead of the default package private level
+src/shiyan2/Graph.java:11:	fieldCommentRequirement Required
+src/shiyan2/Graph.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/Graph.java:12:	To avoid mistakes add a comment at the beginning of the visited field if you want a default access modifier
+src/shiyan2/Graph.java:12:	Use explicit scoping instead of the default package private level
+src/shiyan2/Graph.java:12:	fieldCommentRequirement Required
+src/shiyan2/Graph.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/Graph.java:13:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/shiyan2/Graph.java:13:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 's_to_int' is not final.
+src/shiyan2/Graph.java:13:	To avoid mistakes add a comment at the beginning of the s_to_int field if you want a default access modifier
+src/shiyan2/Graph.java:13:	Use explicit scoping instead of the default package private level
+src/shiyan2/Graph.java:13:	fieldCommentRequirement Required
+src/shiyan2/Graph.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/Graph.java:14:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/shiyan2/Graph.java:14:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'int_to_s' is not final.
+src/shiyan2/Graph.java:14:	To avoid mistakes add a comment at the beginning of the int_to_s field if you want a default access modifier
+src/shiyan2/Graph.java:14:	Use explicit scoping instead of the default package private level
+src/shiyan2/Graph.java:14:	fieldCommentRequirement Required
+src/shiyan2/Graph.java:15:	Document empty constructor
+src/shiyan2/Graph.java:15:	publicMethodCommentRequirement Required
+src/shiyan2/Graph.java:19:	Parameter 'Filename' is not assigned and could be declared final
+src/shiyan2/Graph.java:19:	The constructor 'Graph' has a Cyclomatic Complexity of 16.
+src/shiyan2/Graph.java:19:	The constructor 'Graph' has a Modified Cyclomatic Complexity of 12.
+src/shiyan2/Graph.java:19:	The constructor 'Graph' has a Standard Cyclomatic Complexity of 12.
+src/shiyan2/Graph.java:19:	Variables should start with a lowercase character, 'Filename' starts with uppercase character.
+src/shiyan2/Graph.java:19:	publicMethodCommentRequirement Required
+src/shiyan2/Graph.java:21:	Local variable 'inputFile' could be declared final
+src/shiyan2/Graph.java:22:	Avoid variables with short names like in
+src/shiyan2/Graph.java:22:	Local variable 'in' could be declared final
+src/shiyan2/Graph.java:23:	Avoid variables with short names like c
+src/shiyan2/Graph.java:23:	Avoid variables with short names like i
+src/shiyan2/Graph.java:23:	Avoid variables with short names like j
+src/shiyan2/Graph.java:23:	Use one line for each declaration, it enhances code readability.
+src/shiyan2/Graph.java:24:	Avoid variables with short names like ch
+src/shiyan2/Graph.java:25:	Avoid assignments in operands
+src/shiyan2/Graph.java:27:	Useless parentheses.
+src/shiyan2/Graph.java:27:	Useless parentheses.
+src/shiyan2/Graph.java:29:	Avoid using if statements without curly braces
+src/shiyan2/Graph.java:32:	Avoid using if...else statements without curly braces
+src/shiyan2/Graph.java:32:	Do not add empty strings
+src/shiyan2/Graph.java:34:	Avoid using if...else statements without curly braces
+src/shiyan2/Graph.java:34:	Prefer StringBuffer over += for concatenating strings
+src/shiyan2/Graph.java:39:	Avoid if (x != y) ..; else ..;
+src/shiyan2/Graph.java:45:	Avoid using if...else statements without curly braces
+src/shiyan2/Graph.java:48:	Avoid using if statements without curly braces
+src/shiyan2/Graph.java:50:	Local variable 'numl' could be declared final
+src/shiyan2/Graph.java:58:	Do not add empty strings
+src/shiyan2/GraphViz.java:6:	Comment is too large: Too many lines
+src/shiyan2/GraphViz.java:36:	Comment is too large: Too many lines
+src/shiyan2/GraphViz.java:62:	Comment is too large: Line too long
+src/shiyan2/GraphViz.java:68:	Comment is too large: Line too long
+src/shiyan2/GraphViz.java:76:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TEMP_DIR' is not final.
+src/shiyan2/GraphViz.java:76:	The field name indicates a constant but its modifiers do not
+src/shiyan2/GraphViz.java:76:	Variables should start with a lowercase character, 'TEMP_DIR' starts with uppercase character.
+src/shiyan2/GraphViz.java:82:	The field name indicates a constant but its modifiers do not
+src/shiyan2/GraphViz.java:82:	Variables should start with a lowercase character, 'DOT' starts with uppercase character.
+src/shiyan2/GraphViz.java:87:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/GraphViz.java:87:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+src/shiyan2/GraphViz.java:93:	Avoid unnecessary constructors - the compiler will generate these for you
+src/shiyan2/GraphViz.java:93:	Document empty constructor
+src/shiyan2/GraphViz.java:107:	Parameter 'line' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:114:	Parameter 'line' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:115:	Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+src/shiyan2/GraphViz.java:118:	Parameter 'label' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:118:	Parameter 'line' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:118:	publicMethodCommentRequirement Required
+src/shiyan2/GraphViz.java:120:	StringBuffer (or StringBuilder).append is called 2 consecutive times with literal Strings. Use a single append with a single combined String.
+src/shiyan2/GraphViz.java:133:	Comment is too large: Line too long
+src/shiyan2/GraphViz.java:136:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'dot_source' is not final.
+src/shiyan2/GraphViz.java:136:	Parameter 'dot_source' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:136:	Parameter 'type' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:139:	Found 'DD'-anomaly for variable 'img_stream' (lines '139'-'145').
+src/shiyan2/GraphViz.java:139:	Found 'DU'-anomaly for variable 'img_stream' (lines '139'-'152').
+src/shiyan2/GraphViz.java:139:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'img_stream' is not final.
+src/shiyan2/GraphViz.java:146:	Avoid unnecessary comparisons in boolean expressions
+src/shiyan2/GraphViz.java:146:	Avoid using if statements without curly braces
+src/shiyan2/GraphViz.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/GraphViz.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/GraphViz.java:147:	System.err.println is used
+src/shiyan2/GraphViz.java:148:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/GraphViz.java:150:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/GraphViz.java:160:	Parameter 'file' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:160:	Parameter 'img' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:162:	Avoid variables with short names like to
+src/shiyan2/GraphViz.java:162:	Local variable 'to' could be declared final
+src/shiyan2/GraphViz.java:172:	Avoid variables with short names like to
+src/shiyan2/GraphViz.java:172:	Parameter 'img' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:172:	Parameter 'to' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:175:	Local variable 'fos' could be declared final
+src/shiyan2/GraphViz.java:182:	Avoid printStackTrace(); use a logger call instead.
+src/shiyan2/GraphViz.java:183:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/GraphViz.java:192:	Comment is too large: Line too long
+src/shiyan2/GraphViz.java:195:	Method names should not contain underscores
+src/shiyan2/GraphViz.java:195:	Parameter 'dot' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:195:	Parameter 'type' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:198:	Found 'DD'-anomaly for variable 'img_stream' (lines '198'-'211').
+src/shiyan2/GraphViz.java:198:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'img_stream' is not final.
+src/shiyan2/GraphViz.java:202:	Avoid variables with short names like rt
+src/shiyan2/GraphViz.java:202:	Local variable 'rt' could be declared final
+src/shiyan2/GraphViz.java:205:	Local variable 'args' could be declared final
+src/shiyan2/GraphViz.java:206:	Avoid variables with short names like p
+src/shiyan2/GraphViz.java:206:	Local variable 'p' could be declared final
+src/shiyan2/GraphViz.java:206:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/GraphViz.java:208:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/GraphViz.java:210:	Avoid variables with short names like in
+src/shiyan2/GraphViz.java:210:	Local variable 'in' could be declared final
+src/shiyan2/GraphViz.java:214:	Avoid using if statements without curly braces
+src/shiyan2/GraphViz.java:216:	Avoid unnecessary comparisons in boolean expressions
+src/shiyan2/GraphViz.java:216:	Avoid using if statements without curly braces
+src/shiyan2/GraphViz.java:217:	System.err.println is used
+src/shiyan2/GraphViz.java:220:	System.err.println is used
+src/shiyan2/GraphViz.java:221:	System.err.println is used
+src/shiyan2/GraphViz.java:222:	Avoid printStackTrace(); use a logger call instead.
+src/shiyan2/GraphViz.java:225:	System.err.println is used
+src/shiyan2/GraphViz.java:226:	Avoid printStackTrace(); use a logger call instead.
+src/shiyan2/GraphViz.java:236:	Parameter 'str' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:241:	Local variable 'fout' could be declared final
+src/shiyan2/GraphViz.java:245:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/shiyan2/GraphViz.java:246:	System.err.println is used
+src/shiyan2/GraphViz.java:247:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/GraphViz.java:256:	Method names should not contain underscores
+src/shiyan2/GraphViz.java:264:	Method names should not contain underscores
+src/shiyan2/GraphViz.java:274:	Parameter 'input' is not assigned and could be declared final
+src/shiyan2/GraphViz.java:276:	Avoid variables with short names like sb
+src/shiyan2/GraphViz.java:276:	Local variable 'sb' could be declared final
+src/shiyan2/GraphViz.java:280:	Local variable 'fis' could be declared final
+src/shiyan2/GraphViz.java:281:	Local variable 'dis' could be declared final
+src/shiyan2/GraphViz.java:282:	Avoid variables with short names like br
+src/shiyan2/GraphViz.java:282:	Local variable 'br' could be declared final
+src/shiyan2/GraphViz.java:284:	Avoid assignments in operands
+src/shiyan2/GraphViz.java:284:	Found 'DU'-anomaly for variable 'line' (lines '284'-'294').
+src/shiyan2/GraphViz.java:289:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/shiyan2/GraphViz.java:290:	System.err.println is used
+src/shiyan2/main_1.java:1:	Possible God class (WMC=76, ATFD=36, TCC=0.0)
+src/shiyan2/main_1.java:5:	Avoid unused imports such as 'java.util.HashMap'
+src/shiyan2/main_1.java:6:	Avoid unused imports such as 'java.util.Map'
+src/shiyan2/main_1.java:7:	Avoid unused imports such as 'java.util.Scanner'
+src/shiyan2/main_1.java:10:	Avoid unused imports such as 'javax.swing.JFileChooser'
+src/shiyan2/main_1.java:11:	Avoid unused imports such as 'javax.swing.JLabel'
+src/shiyan2/main_1.java:15:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/shiyan2/main_1.java:15:	Class names should begin with an uppercase character
+src/shiyan2/main_1.java:15:	The class 'main_1' has a Cyclomatic Complexity of 7 (Highest = 21).
+src/shiyan2/main_1.java:15:	The class 'main_1' has a Modified Cyclomatic Complexity of 6 (Highest = 19).
+src/shiyan2/main_1.java:15:	The class 'main_1' has a Standard Cyclomatic Complexity of 6 (Highest = 19).
+src/shiyan2/main_1.java:15:	This class has too many methods, consider refactoring it.
+src/shiyan2/main_1.java:15:	headerCommentRequirement Required
+src/shiyan2/main_1.java:16:	Parameter 'args' is not assigned and could be declared final
+src/shiyan2/main_1.java:16:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:18:	Avoid unused local variables such as 'm'.
+src/shiyan2/main_1.java:18:	Avoid variables with short names like m
+src/shiyan2/main_1.java:18:	Found 'DU'-anomaly for variable 'm' (lines '18'-'19').
+src/shiyan2/main_1.java:18:	Local variable 'm' could be declared final
+src/shiyan2/main_1.java:20:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/shiyan2/main_1.java:20:	To avoid mistakes add a comment at the beginning of the arr field if you want a default access modifier
+src/shiyan2/main_1.java:20:	Use explicit scoping instead of the default package private level
+src/shiyan2/main_1.java:20:	fieldCommentRequirement Required
+src/shiyan2/main_1.java:21:	Parameter 'filename' is not assigned and could be declared final
+src/shiyan2/main_1.java:21:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:23:	Avoid variables with short names like T
+src/shiyan2/main_1.java:23:	Found 'DD'-anomaly for variable 'T' (lines '23'-'24').
+src/shiyan2/main_1.java:23:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:27:	Avoid variables with short names like T
+src/shiyan2/main_1.java:27:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:27:	Parameter 'word1' is not assigned and could be declared final
+src/shiyan2/main_1.java:27:	Parameter 'word2' is not assigned and could be declared final
+src/shiyan2/main_1.java:27:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:27:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:29:	Found 'DD'-anomaly for variable 'result' (lines '29'-'36').
+src/shiyan2/main_1.java:29:	Found 'DD'-anomaly for variable 'result' (lines '29'-'43').
+src/shiyan2/main_1.java:30:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:30:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:34:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:34:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:36:	Do not add empty strings
+src/shiyan2/main_1.java:36:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:36:	Prefer StringBuffer over += for concatenating strings
+src/shiyan2/main_1.java:39:	Avoid using Literals in Conditional Statements
+src/shiyan2/main_1.java:39:	Avoid using if statements without curly braces
+src/shiyan2/main_1.java:39:	Use equals() to compare strings instead of '==' or '!='
+src/shiyan2/main_1.java:41:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/main_1.java:47:	Avoid variables with short names like T
+src/shiyan2/main_1.java:47:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:47:	Parameter 'inputText' is not assigned and could be declared final
+src/shiyan2/main_1.java:47:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:47:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:48:	Local variable 'in1' could be declared final
+src/shiyan2/main_1.java:49:	Found 'DD'-anomaly for variable 'result' (lines '49'-'63').
+src/shiyan2/main_1.java:49:	Found 'DD'-anomaly for variable 'result' (lines '49'-'65').
+src/shiyan2/main_1.java:51:	Avoid variables with short names like B
+src/shiyan2/main_1.java:51:	Found 'DU'-anomaly for variable 'B' (lines '51'-'68').
+src/shiyan2/main_1.java:51:	Local variable 'B' could be declared final
+src/shiyan2/main_1.java:51:	Variables should start with a lowercase character, 'B' starts with uppercase character.
+src/shiyan2/main_1.java:52:	Avoid variables with short names like A
+src/shiyan2/main_1.java:52:	Found 'DU'-anomaly for variable 'A' (lines '52'-'68').
+src/shiyan2/main_1.java:52:	Local variable 'A' could be declared final
+src/shiyan2/main_1.java:52:	Variables should start with a lowercase character, 'A' starts with uppercase character.
+src/shiyan2/main_1.java:55:	Avoid variables with short names like C
+src/shiyan2/main_1.java:55:	Local variable 'C' could be declared final
+src/shiyan2/main_1.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:55:	Variables should start with a lowercase character, 'C' starts with uppercase character.
+src/shiyan2/main_1.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/main_1.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/main_1.java:57:	Avoid empty if statements
+src/shiyan2/main_1.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:63:	Prefer StringBuffer over += for concatenating strings
+src/shiyan2/main_1.java:65:	Prefer StringBuffer over += for concatenating strings
+src/shiyan2/main_1.java:71:	Avoid variables with short names like T
+src/shiyan2/main_1.java:71:	Avoid variables with short names like n
+src/shiyan2/main_1.java:71:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:71:	Parameter 'from' is not assigned and could be declared final
+src/shiyan2/main_1.java:71:	Parameter 'n' is not assigned and could be declared final
+src/shiyan2/main_1.java:71:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:71:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:73:	Avoid variables with short names like i
+src/shiyan2/main_1.java:73:	Avoid variables with short names like k
+src/shiyan2/main_1.java:73:	Found 'DD'-anomaly for variable 'i' (lines '73'-'77').
+src/shiyan2/main_1.java:73:	Use one line for each declaration, it enhances code readability.
+src/shiyan2/main_1.java:74:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/shiyan2/main_1.java:74:	Avoid variables with short names like r
+src/shiyan2/main_1.java:74:	Found 'DU'-anomaly for variable 'r' (lines '74'-'99').
+src/shiyan2/main_1.java:74:	Local variable 'r' could be declared final
+src/shiyan2/main_1.java:75:	Found 'DD'-anomaly for variable 'path' (lines '75'-'81').
+src/shiyan2/main_1.java:75:	Found 'DU'-anomaly for variable 'path' (lines '75'-'99').
+src/shiyan2/main_1.java:76:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/shiyan2/main_1.java:76:	Avoid instantiating String objects; this is usually unnecessary.
+src/shiyan2/main_1.java:76:	Found 'DD'-anomaly for variable 'result' (lines '76'-'97').
+src/shiyan2/main_1.java:76:	Found 'DU'-anomaly for variable 'result' (lines '76'-'99').
+src/shiyan2/main_1.java:81:	Found 'DD'-anomaly for variable 'path' (lines '81'-'81').
+src/shiyan2/main_1.java:81:	Found 'DU'-anomaly for variable 'path' (lines '81'-'99').
+src/shiyan2/main_1.java:86:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/main_1.java:88:	Avoid variables with short names like to
+src/shiyan2/main_1.java:88:	Local variable 'to' could be declared final
+src/shiyan2/main_1.java:88:	This statement may have some unnecessary parentheses
+src/shiyan2/main_1.java:88:	Useless parentheses.
+src/shiyan2/main_1.java:89:	Avoid using Literals in Conditional Statements
+src/shiyan2/main_1.java:91:	Avoid using for statements without curly braces
+src/shiyan2/main_1.java:92:	Avoid using for statements without curly braces
+src/shiyan2/main_1.java:94:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/main_1.java:94:	Do not add empty strings
+src/shiyan2/main_1.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:94:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:97:	Do not add empty strings
+src/shiyan2/main_1.java:97:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:97:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:100:	Avoid variables with short names like T
+src/shiyan2/main_1.java:100:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:100:	Parameter 'start' is not assigned and could be declared final
+src/shiyan2/main_1.java:100:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:100:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:102:	Avoid instantiating String objects; this is usually unnecessary.
+src/shiyan2/main_1.java:102:	Found 'DD'-anomaly for variable 'result' (lines '102'-'104').
+src/shiyan2/main_1.java:103:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:105:	Do not add empty strings
+src/shiyan2/main_1.java:105:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:108:	Avoid variables with short names like T
+src/shiyan2/main_1.java:108:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:108:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:108:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:110:	Local variable 'type' could be declared final
+src/shiyan2/main_1.java:111:	Avoid variables with short names like gv
+src/shiyan2/main_1.java:111:	Local variable 'gv' could be declared final
+src/shiyan2/main_1.java:119:	Do not add empty strings
+src/shiyan2/main_1.java:119:	Do not add empty strings
+src/shiyan2/main_1.java:119:	Do not add empty strings
+src/shiyan2/main_1.java:119:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:119:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:119:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:119:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:124:	Local variable 'out' could be declared final
+src/shiyan2/main_1.java:127:	Avoid variables with short names like T
+src/shiyan2/main_1.java:127:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:127:	Parameter 'word1' is not assigned and could be declared final
+src/shiyan2/main_1.java:127:	Parameter 'word2' is not assigned and could be declared final
+src/shiyan2/main_1.java:127:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:127:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:129:	Found 'DU'-anomaly for variable 'max' (lines '129'-'164').
+src/shiyan2/main_1.java:129:	Local variable 'max' could be declared final
+src/shiyan2/main_1.java:130:	Avoid variables with short names like i
+src/shiyan2/main_1.java:130:	Avoid variables with short names like j
+src/shiyan2/main_1.java:130:	Found 'DD'-anomaly for variable 'i' (lines '130'-'136').
+src/shiyan2/main_1.java:130:	Found 'DD'-anomaly for variable 'j' (lines '130'-'137').
+src/shiyan2/main_1.java:130:	Found 'DD'-anomaly for variable 'j' (lines '130'-'150').
+src/shiyan2/main_1.java:130:	Use one line for each declaration, it enhances code readability.
+src/shiyan2/main_1.java:131:	Local variable 'start' could be declared final
+src/shiyan2/main_1.java:131:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:132:	Local variable 'end' could be declared final
+src/shiyan2/main_1.java:132:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:133:	Avoid variables with short names like n
+src/shiyan2/main_1.java:133:	Local variable 'n' could be declared final
+src/shiyan2/main_1.java:134:	Avoid variables with short names like G
+src/shiyan2/main_1.java:134:	Found 'DD'-anomaly for variable 'G' (lines '134'-'139').
+src/shiyan2/main_1.java:134:	Found 'DU'-anomaly for variable 'G' (lines '134'-'164').
+src/shiyan2/main_1.java:134:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/shiyan2/main_1.java:135:	Found 'DD'-anomaly for variable 'result' (lines '135'-'162').
+src/shiyan2/main_1.java:136:	Avoid using for statements without curly braces
+src/shiyan2/main_1.java:139:	Found 'DD'-anomaly for variable 'G' (lines '139'-'139').
+src/shiyan2/main_1.java:139:	Found 'DD'-anomaly for variable 'G' (lines '139'-'142').
+src/shiyan2/main_1.java:139:	Found 'DU'-anomaly for variable 'G' (lines '139'-'164').
+src/shiyan2/main_1.java:142:	Found 'DD'-anomaly for variable 'G' (lines '142'-'139').
+src/shiyan2/main_1.java:142:	Found 'DU'-anomaly for variable 'G' (lines '142'-'164').
+src/shiyan2/main_1.java:145:	Avoid variables with short names like p
+src/shiyan2/main_1.java:145:	Local variable 'p' could be declared final
+src/shiyan2/main_1.java:146:	Avoid variables with short names like d
+src/shiyan2/main_1.java:146:	Local variable 'd' could be declared final
+src/shiyan2/main_1.java:147:	Avoid unused local variables such as 'io'.
+src/shiyan2/main_1.java:147:	Avoid variables with short names like io
+src/shiyan2/main_1.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:153:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:153:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:156:	Avoid using if statements without curly braces
+src/shiyan2/main_1.java:157:	Found 'DD'-anomaly for variable 'io' (lines '157'-'157').
+src/shiyan2/main_1.java:157:	Found 'DU'-anomaly for variable 'io' (lines '157'-'164').
+src/shiyan2/main_1.java:161:	Avoid using for statements without curly braces
+src/shiyan2/main_1.java:162:	Do not add empty strings
+src/shiyan2/main_1.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:162:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:162:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:162:	Prefer StringBuffer over += for concatenating strings
+src/shiyan2/main_1.java:167:	Avoid variables with short names like A
+src/shiyan2/main_1.java:167:	Avoid variables with short names like G
+src/shiyan2/main_1.java:167:	Avoid variables with short names like n
+src/shiyan2/main_1.java:167:	Parameter 'G' is not assigned and could be declared final
+src/shiyan2/main_1.java:167:	Parameter 'n' is not assigned and could be declared final
+src/shiyan2/main_1.java:167:	Parameter 'stack' is not assigned and could be declared final
+src/shiyan2/main_1.java:167:	Variables should start with a lowercase character, 'A' starts with uppercase character.
+src/shiyan2/main_1.java:167:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/shiyan2/main_1.java:167:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:174:	Useless parentheses.
+src/shiyan2/main_1.java:182:	Avoid variables with short names like G
+src/shiyan2/main_1.java:182:	Avoid variables with short names like T
+src/shiyan2/main_1.java:182:	Avoid variables with short names like n
+src/shiyan2/main_1.java:182:	Avoid variables with short names like p
+src/shiyan2/main_1.java:182:	Parameter 'G' is not assigned and could be declared final
+src/shiyan2/main_1.java:182:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:182:	Parameter 'end' is not assigned and could be declared final
+src/shiyan2/main_1.java:182:	Parameter 'n' is not assigned and could be declared final
+src/shiyan2/main_1.java:182:	Parameter 'start' is not assigned and could be declared final
+src/shiyan2/main_1.java:182:	The method 'showpath' has a Cyclomatic Complexity of 21.
+src/shiyan2/main_1.java:182:	The method 'showpath' has a Modified Cyclomatic Complexity of 19.
+src/shiyan2/main_1.java:182:	The method 'showpath' has a Standard Cyclomatic Complexity of 19.
+src/shiyan2/main_1.java:182:	The method showpath() has an NPath complexity of 201
+src/shiyan2/main_1.java:182:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/shiyan2/main_1.java:182:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:182:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:184:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'min_length' is not final.
+src/shiyan2/main_1.java:185:	Avoid variables with short names like d
+src/shiyan2/main_1.java:185:	Avoid variables with short names like h
+src/shiyan2/main_1.java:185:	Avoid variables with short names like xx
+src/shiyan2/main_1.java:185:	Found 'DD'-anomaly for variable 'd' (lines '185'-'205').
+src/shiyan2/main_1.java:185:	Found 'DD'-anomaly for variable 'ele' (lines '185'-'200').
+src/shiyan2/main_1.java:185:	Found 'DD'-anomaly for variable 'h' (lines '185'-'205').
+src/shiyan2/main_1.java:185:	Found 'DD'-anomaly for variable 'xx' (lines '185'-'212').
+src/shiyan2/main_1.java:185:	Use one line for each declaration, it enhances code readability.
+src/shiyan2/main_1.java:186:	Avoid variables with short names like v
+src/shiyan2/main_1.java:186:	Found 'DD'-anomaly for variable 'v' (lines '186'-'192').
+src/shiyan2/main_1.java:187:	Avoid variables with short names like A
+src/shiyan2/main_1.java:187:	Found 'DD'-anomaly for variable 'A' (lines '187'-'194').
+src/shiyan2/main_1.java:187:	Variables should start with a lowercase character, 'A' starts with uppercase character.
+src/shiyan2/main_1.java:188:	Avoid variables with short names like aa
+src/shiyan2/main_1.java:188:	Found 'DD'-anomaly for variable 'aa' (lines '188'-'210').
+src/shiyan2/main_1.java:188:	Found 'DD'-anomaly for variable 'aa' (lines '188'-'227').
+src/shiyan2/main_1.java:188:	Found 'DU'-anomaly for variable 'aa' (lines '188'-'278').
+src/shiyan2/main_1.java:189:	Local variable 'mystack' could be declared final
+src/shiyan2/main_1.java:192:	Found 'DD'-anomaly for variable 'v' (lines '192'-'192').
+src/shiyan2/main_1.java:192:	Found 'DD'-anomaly for variable 'v' (lines '192'-'197').
+src/shiyan2/main_1.java:193:	Avoid using for statements without curly braces
+src/shiyan2/main_1.java:194:	Found 'DD'-anomaly for variable 'A' (lines '194'-'194').
+src/shiyan2/main_1.java:197:	Found 'DD'-anomaly for variable 'v' (lines '197'-'238').
+src/shiyan2/main_1.java:206:	Found 'DU'-anomaly for variable 'min_length' (lines '206'-'278').
+src/shiyan2/main_1.java:207:	Avoid instantiating new objects inside loops
+src/shiyan2/main_1.java:210:	Found 'DD'-anomaly for variable 'aa' (lines '210'-'210').
+src/shiyan2/main_1.java:210:	Found 'DD'-anomaly for variable 'aa' (lines '210'-'227').
+src/shiyan2/main_1.java:210:	Found 'DU'-anomaly for variable 'aa' (lines '210'-'278').
+src/shiyan2/main_1.java:215:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:216:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:216:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:216:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:223:	Avoid instantiating new objects inside loops
+src/shiyan2/main_1.java:227:	Found 'DD'-anomaly for variable 'aa' (lines '227'-'227').
+src/shiyan2/main_1.java:227:	Found 'DU'-anomaly for variable 'aa' (lines '227'-'278').
+src/shiyan2/main_1.java:232:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:233:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:233:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:233:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:238:	Found 'DD'-anomaly for variable 'v' (lines '238'-'238').
+src/shiyan2/main_1.java:238:	Found 'DD'-anomaly for variable 'v' (lines '238'-'268').
+src/shiyan2/main_1.java:238:	Found 'DU'-anomaly for variable 'v' (lines '238'-'278').
+src/shiyan2/main_1.java:240:	Avoid using if statements without curly braces
+src/shiyan2/main_1.java:242:	Avoid using if statements without curly braces
+src/shiyan2/main_1.java:243:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:243:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:247:	Avoid variables with short names like i
+src/shiyan2/main_1.java:253:	Found 'DD'-anomaly for variable 'v' (lines '253'-'258').
+src/shiyan2/main_1.java:253:	Found 'DD'-anomaly for variable 'v' (lines '253'-'268').
+src/shiyan2/main_1.java:253:	Found 'DU'-anomaly for variable 'v' (lines '253'-'278').
+src/shiyan2/main_1.java:254:	Found 'DD'-anomaly for variable 'A' (lines '254'-'259').
+src/shiyan2/main_1.java:254:	Found 'DU'-anomaly for variable 'A' (lines '254'-'278').
+src/shiyan2/main_1.java:258:	Found 'DD'-anomaly for variable 'v' (lines '258'-'268').
+src/shiyan2/main_1.java:258:	Found 'DU'-anomaly for variable 'v' (lines '258'-'278').
+src/shiyan2/main_1.java:259:	Found 'DU'-anomaly for variable 'A' (lines '259'-'278').
+src/shiyan2/main_1.java:268:	Found 'DU'-anomaly for variable 'v' (lines '268'-'278').
+src/shiyan2/main_1.java:270:	Avoid using if statements without curly braces
+src/shiyan2/main_1.java:272:	Avoid using if statements without curly braces
+src/shiyan2/main_1.java:273:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:273:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:280:	Avoid variables with short names like T
+src/shiyan2/main_1.java:280:	Method names should not contain underscores
+src/shiyan2/main_1.java:280:	Parameter 'T' is not assigned and could be declared final
+src/shiyan2/main_1.java:280:	Parameter 'word' is not assigned and could be declared final
+src/shiyan2/main_1.java:280:	The method 'all_calcShortestPath' has a Cyclomatic Complexity of 18.
+src/shiyan2/main_1.java:280:	The method 'all_calcShortestPath' has a Modified Cyclomatic Complexity of 15.
+src/shiyan2/main_1.java:280:	The method 'all_calcShortestPath' has a Standard Cyclomatic Complexity of 15.
+src/shiyan2/main_1.java:280:	The method all_calcShortestPath() has an NPath complexity of 1224
+src/shiyan2/main_1.java:280:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/main_1.java:280:	publicMethodCommentRequirement Required
+src/shiyan2/main_1.java:282:	Local variable 'maxint' could be declared final
+src/shiyan2/main_1.java:283:	Avoid variables with short names like A
+src/shiyan2/main_1.java:283:	Found 'DD'-anomaly for variable 'A' (lines '283'-'289').
+src/shiyan2/main_1.java:283:	Variables should start with a lowercase character, 'A' starts with uppercase character.
+src/shiyan2/main_1.java:289:	Avoid using if...else statements without curly braces
+src/shiyan2/main_1.java:289:	Found 'DD'-anomaly for variable 'A' (lines '289'-'289').
+src/shiyan2/main_1.java:291:	Avoid using if...else statements without curly braces
+src/shiyan2/main_1.java:294:	Avoid variables with short names like v0
+src/shiyan2/main_1.java:294:	Local variable 'v0' could be declared final
+src/shiyan2/main_1.java:294:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:295:	Found 'DD'-anomaly for variable 'dist' (lines '295'-'300').
+src/shiyan2/main_1.java:296:	Found 'DD'-anomaly for variable 'prev' (lines '296'-'303').
+src/shiyan2/main_1.java:297:	Avoid variables with short names like s
+src/shiyan2/main_1.java:297:	Found 'DD'-anomaly for variable 's' (lines '297'-'301').
+src/shiyan2/main_1.java:301:	Found 'DD'-anomaly for variable 's' (lines '301'-'301').
+src/shiyan2/main_1.java:301:	Found 'DD'-anomaly for variable 's' (lines '301'-'308').
+src/shiyan2/main_1.java:303:	Avoid using if...else statements without curly braces
+src/shiyan2/main_1.java:303:	Found 'DD'-anomaly for variable 'prev' (lines '303'-'303').
+src/shiyan2/main_1.java:303:	Found 'DD'-anomaly for variable 'prev' (lines '303'-'328').
+src/shiyan2/main_1.java:305:	Avoid using if...else statements without curly braces
+src/shiyan2/main_1.java:311:	Found 'DU'-anomaly for variable 'min' (lines '311'-'354').
+src/shiyan2/main_1.java:312:	Avoid variables with short names like u
+src/shiyan2/main_1.java:312:	Found 'DD'-anomaly for variable 'u' (lines '312'-'317').
+src/shiyan2/main_1.java:317:	Found 'DD'-anomaly for variable 'u' (lines '317'-'317').
+src/shiyan2/main_1.java:318:	Found 'DD'-anomaly for variable 'min' (lines '318'-'311').
+src/shiyan2/main_1.java:318:	Found 'DU'-anomaly for variable 'min' (lines '318'-'354').
+src/shiyan2/main_1.java:321:	Found 'DU'-anomaly for variable 's' (lines '321'-'354').
+src/shiyan2/main_1.java:328:	Found 'DD'-anomaly for variable 'prev' (lines '328'-'328').
+src/shiyan2/main_1.java:328:	Found 'DU'-anomaly for variable 'prev' (lines '328'-'354').
+src/shiyan2/main_1.java:333:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/shiyan2/main_1.java:333:	Avoid unused local variables such as 'stack'.
+src/shiyan2/main_1.java:333:	Found 'DU'-anomaly for variable 'stack' (lines '333'-'354').
+src/shiyan2/main_1.java:333:	Local variable 'stack' could be declared final
+src/shiyan2/main_1.java:334:	Avoid variables with short names like pp
+src/shiyan2/main_1.java:334:	Found 'DD'-anomaly for variable 'pp' (lines '334'-'338').
+src/shiyan2/main_1.java:335:	Avoid variables with short names like i
+src/shiyan2/main_1.java:335:	Found 'DU'-anomaly for variable 'i' (lines '335'-'354').
+src/shiyan2/main_1.java:338:	Avoid instantiating new objects inside loops
+src/shiyan2/main_1.java:338:	Found 'DD'-anomaly for variable 'pp' (lines '338'-'338').
+src/shiyan2/main_1.java:341:	Avoid variables with short names like k
+src/shiyan2/main_1.java:346:	Do not add empty strings
+src/shiyan2/main_1.java:346:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:346:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/main_1.java:346:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/main_1.java:351:	Found 'DU'-anomaly for variable 'i' (lines '351'-'354').
+src/shiyan2/menu1.java:21:	Avoid unused imports such as 'javax.swing.RootPaneContainer'
+src/shiyan2/menu1.java:23:	Class names should begin with an uppercase character
+src/shiyan2/menu1.java:23:	The class 'menu1' has a Cyclomatic Complexity of 16 (Highest = 30).
+src/shiyan2/menu1.java:23:	The class 'menu1' has a Modified Cyclomatic Complexity of 16 (Highest = 29).
+src/shiyan2/menu1.java:23:	The class 'menu1' has a Standard Cyclomatic Complexity of 16 (Highest = 29).
+src/shiyan2/menu1.java:23:	Too many fields
+src/shiyan2/menu1.java:23:	headerCommentRequirement Required
+src/shiyan2/menu1.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:25:	To avoid mistakes add a comment at the beginning of the jb1 field if you want a default access modifier
+src/shiyan2/menu1.java:25:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:25:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:26:	To avoid mistakes add a comment at the beginning of the jb2 field if you want a default access modifier
+src/shiyan2/menu1.java:26:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:26:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:28:	The String literal "sure" appears 5 times in this file; the first occurrence is on line 28
+src/shiyan2/menu1.java:28:	To avoid mistakes add a comment at the beginning of the sure field if you want a default access modifier
+src/shiyan2/menu1.java:28:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:28:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:29:	To avoid mistakes add a comment at the beginning of the exit field if you want a default access modifier
+src/shiyan2/menu1.java:29:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:29:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:30:	To avoid mistakes add a comment at the beginning of the next field if you want a default access modifier
+src/shiyan2/menu1.java:30:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:30:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:32:	To avoid mistakes add a comment at the beginning of the sure1 field if you want a default access modifier
+src/shiyan2/menu1.java:32:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:32:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:33:	To avoid mistakes add a comment at the beginning of the sure2 field if you want a default access modifier
+src/shiyan2/menu1.java:33:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:33:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:34:	To avoid mistakes add a comment at the beginning of the sure3 field if you want a default access modifier
+src/shiyan2/menu1.java:34:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:34:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:35:	To avoid mistakes add a comment at the beginning of the sure4 field if you want a default access modifier
+src/shiyan2/menu1.java:35:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:35:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:37:	To avoid mistakes add a comment at the beginning of the gn1 field if you want a default access modifier
+src/shiyan2/menu1.java:37:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:37:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:38:	To avoid mistakes add a comment at the beginning of the gn2 field if you want a default access modifier
+src/shiyan2/menu1.java:38:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:38:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:39:	To avoid mistakes add a comment at the beginning of the gn3 field if you want a default access modifier
+src/shiyan2/menu1.java:39:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:39:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:40:	To avoid mistakes add a comment at the beginning of the gn4 field if you want a default access modifier
+src/shiyan2/menu1.java:40:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:40:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:41:	To avoid mistakes add a comment at the beginning of the gn5 field if you want a default access modifier
+src/shiyan2/menu1.java:41:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:41:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:43:	To avoid mistakes add a comment at the beginning of the from field if you want a default access modifier
+src/shiyan2/menu1.java:43:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:43:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:44:	Avoid variables with short names like to
+src/shiyan2/menu1.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:44:	To avoid mistakes add a comment at the beginning of the to field if you want a default access modifier
+src/shiyan2/menu1.java:44:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:44:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:45:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'bridge_word' is not final.
+src/shiyan2/menu1.java:45:	To avoid mistakes add a comment at the beginning of the bridge_word field if you want a default access modifier
+src/shiyan2/menu1.java:45:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:45:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:47:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'User_input' is not final.
+src/shiyan2/menu1.java:47:	To avoid mistakes add a comment at the beginning of the User_input field if you want a default access modifier
+src/shiyan2/menu1.java:47:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:47:	Variables should start with a lowercase character, 'User_input' starts with uppercase character.
+src/shiyan2/menu1.java:47:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:48:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'word_output' is not final.
+src/shiyan2/menu1.java:48:	To avoid mistakes add a comment at the beginning of the word_output field if you want a default access modifier
+src/shiyan2/menu1.java:48:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:48:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:50:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ran_go' is not final.
+src/shiyan2/menu1.java:50:	To avoid mistakes add a comment at the beginning of the ran_go field if you want a default access modifier
+src/shiyan2/menu1.java:50:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:50:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:51:	To avoid mistakes add a comment at the beginning of the start field if you want a default access modifier
+src/shiyan2/menu1.java:51:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:51:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:53:	To avoid mistakes add a comment at the beginning of the start1 field if you want a default access modifier
+src/shiyan2/menu1.java:53:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:53:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:54:	To avoid mistakes add a comment at the beginning of the short2 field if you want a default access modifier
+src/shiyan2/menu1.java:54:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:54:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:56:	To avoid mistakes add a comment at the beginning of the myframe field if you want a default access modifier
+src/shiyan2/menu1.java:56:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:56:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:57:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:57:	To avoid mistakes add a comment at the beginning of the mypanel field if you want a default access modifier
+src/shiyan2/menu1.java:57:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:57:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:59:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:59:	To avoid mistakes add a comment at the beginning of the start2 field if you want a default access modifier
+src/shiyan2/menu1.java:59:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:59:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:60:	To avoid mistakes add a comment at the beginning of the end field if you want a default access modifier
+src/shiyan2/menu1.java:60:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:60:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:61:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:61:	To avoid mistakes add a comment at the beginning of the short1 field if you want a default access modifier
+src/shiyan2/menu1.java:61:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:61:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:62:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:62:	To avoid mistakes add a comment at the beginning of the short3 field if you want a default access modifier
+src/shiyan2/menu1.java:62:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:62:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:64:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:64:	To avoid mistakes add a comment at the beginning of the pn1 field if you want a default access modifier
+src/shiyan2/menu1.java:64:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:64:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:65:	Avoid variables with short names like T
+src/shiyan2/menu1.java:65:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:65:	The field name indicates a constant but its modifiers do not
+src/shiyan2/menu1.java:65:	To avoid mistakes add a comment at the beginning of the T field if you want a default access modifier
+src/shiyan2/menu1.java:65:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:65:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/shiyan2/menu1.java:65:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:67:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:67:	To avoid mistakes add a comment at the beginning of the jsp3 field if you want a default access modifier
+src/shiyan2/menu1.java:67:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:67:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:69:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:69:	To avoid mistakes add a comment at the beginning of the height field if you want a default access modifier
+src/shiyan2/menu1.java:69:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:69:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:70:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:70:	To avoid mistakes add a comment at the beginning of the width field if you want a default access modifier
+src/shiyan2/menu1.java:70:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:70:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:71:	Avoid variables with short names like x
+src/shiyan2/menu1.java:71:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/shiyan2/menu1.java:71:	To avoid mistakes add a comment at the beginning of the x field if you want a default access modifier
+src/shiyan2/menu1.java:71:	Use explicit scoping instead of the default package private level
+src/shiyan2/menu1.java:71:	fieldCommentRequirement Required
+src/shiyan2/menu1.java:72:	publicMethodCommentRequirement Required
+src/shiyan2/menu1.java:120:	Avoid really long methods.
+src/shiyan2/menu1.java:120:	Avoid variables with short names like e
+src/shiyan2/menu1.java:120:	Parameter 'e' is not assigned and could be declared final
+src/shiyan2/menu1.java:120:	The method 'actionPerformed' has a Cyclomatic Complexity of 30.
+src/shiyan2/menu1.java:120:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 29.
+src/shiyan2/menu1.java:120:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 29.
+src/shiyan2/menu1.java:120:	The method actionPerformed() has an NCSS line count of 217
+src/shiyan2/menu1.java:120:	publicMethodCommentRequirement Required
+src/shiyan2/menu1.java:124:	Local variable 'jfc' could be declared final
+src/shiyan2/menu1.java:127:	Local variable 'file' could be declared final
+src/shiyan2/menu1.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/menu1.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/shiyan2/menu1.java:136:	Avoid printStackTrace(); use a logger call instead.
+src/shiyan2/menu1.java:142:	Local variable 'frm' could be declared final
+src/shiyan2/menu1.java:143:	Local variable 'pnl' could be declared final
+src/shiyan2/menu1.java:146:	Avoid variables with short names like sp
+src/shiyan2/menu1.java:146:	Local variable 'sp' could be declared final
+src/shiyan2/menu1.java:147:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:150:	Local variable 'imag' could be declared final
+src/shiyan2/menu1.java:162:	Avoid variables with short names like l1
+src/shiyan2/menu1.java:162:	Local variable 'l1' could be declared final
+src/shiyan2/menu1.java:163:	The String literal "Dialog" appears 5 times in this file; the first occurrence is on line 163
+src/shiyan2/menu1.java:187:	Local variable 'result' could be declared final
+src/shiyan2/menu1.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:187:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:187:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:187:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:192:	Avoid variables with short names like l2
+src/shiyan2/menu1.java:192:	Local variable 'l2' could be declared final
+src/shiyan2/menu1.java:216:	Local variable 'result' could be declared final
+src/shiyan2/menu1.java:216:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:216:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:216:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:221:	Avoid variables with short names like l3
+src/shiyan2/menu1.java:221:	Local variable 'l3' could be declared final
+src/shiyan2/menu1.java:250:	Avoid using for statements without curly braces
+src/shiyan2/menu1.java:251:	Avoid using for statements without curly braces
+src/shiyan2/menu1.java:253:	Avoid variables with short names like r
+src/shiyan2/menu1.java:253:	Local variable 'r' could be declared final
+src/shiyan2/menu1.java:254:	This statement may have some unnecessary parentheses
+src/shiyan2/menu1.java:254:	Useless parentheses.
+src/shiyan2/menu1.java:255:	Do not add empty strings
+src/shiyan2/menu1.java:255:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/menu1.java:269:	Avoid variables with short names like s
+src/shiyan2/menu1.java:269:	Local variable 's' could be declared final
+src/shiyan2/menu1.java:274:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/menu1.java:277:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/menu1.java:280:	A method should have only one exit point, and that should be the last statement in the method
+src/shiyan2/menu1.java:282:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/menu1.java:286:	Avoid variables with short names like l3
+src/shiyan2/menu1.java:286:	Local variable 'l3' could be declared final
+src/shiyan2/menu1.java:316:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:316:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:316:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/menu1.java:316:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:321:	Found 'DU'-anomaly for variable 'result' (lines '321'-'393').
+src/shiyan2/menu1.java:321:	Local variable 'result' could be declared final
+src/shiyan2/menu1.java:321:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:321:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:321:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:322:	Avoid variables with short names like i
+src/shiyan2/menu1.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:327:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:327:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:327:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:328:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:328:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:330:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:330:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:330:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:330:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:339:	Avoid variables with short names like l3
+src/shiyan2/menu1.java:339:	Local variable 'l3' could be declared final
+src/shiyan2/menu1.java:372:	Found 'DU'-anomaly for variable 'stack' (lines '372'-'393').
+src/shiyan2/menu1.java:372:	Local variable 'stack' could be declared final
+src/shiyan2/menu1.java:373:	Found 'DD'-anomaly for variable 'result' (lines '373'-'376').
+src/shiyan2/menu1.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:374:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:374:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/menu1.java:374:	Potential violation of Law of Demeter (static property access)
+src/shiyan2/menu1.java:374:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:374:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:376:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:376:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:376:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/shiyan2/menu1.java:382:	Do not add empty strings
+src/shiyan2/menu1.java:382:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:382:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:382:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:382:	Potential violation of Law of Demeter (method chain calls)
+src/shiyan2/menu1.java:382:	Potential violation of Law of Demeter (static property access)
